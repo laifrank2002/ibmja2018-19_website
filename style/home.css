@@ -49,3 +49,18 @@
 #splash_image_corner div{
 	display:inline-block;
 }
+
+#executive_slideshow{
+	margin: 0;
+}
+
+#executive_slideshow li{
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.executive_slideshow_element {
+	
+}

@@ -44,8 +44,23 @@ html,body {
 /* framework */
 .slide {
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 	text-align: center;
+}
+
+.slide h1 {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 50px;
+	font-size: 3em;
+}
+
+.slide p {
+	margin-left: 20%;
+	margin-right: 20%;
+	
+	font-size: 2em;
+	padding-bottom: 50px;
 }
 
 .black {
@@ -89,6 +104,7 @@ img {
 
 .header_banner {
 	float: left;
+	margin-left: 10px;
 }
 
 .navigation_bar {
@@ -118,10 +134,20 @@ img {
 footer {
 	width: 100%;
 	padding: 15px;
+	
+	color: white;
+	background-color: rgba(255,160,95,1);
+	
+	text-align: center;
 }
 
 footer h1 {
-	font-size: 1.2em;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+footer h2 {
+	font-size: 1.8em;
 	font-weight: normal;
 }
 

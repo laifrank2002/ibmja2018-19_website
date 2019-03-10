@@ -3,82 +3,52 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/home.css">
+	<title>Abeeille</title>
 	<!-- Resources -->
 	<script src="javascript/includeHTML.js"></script>
+	<!-- Script -->
 	<script>
 		window.onload = function()
 		{
 			includeHTML();
-		};
+		}
 	</script>
 </head>
 <body>
-	<div id="page_container">
-		<header id="navigation_bar" include_html="includes/header.html"></header>
-		<div id="splash_image" class="overlay">
-			<div id="splash_image_center">
-				<p id="splash_image_title">Responsive Note Taking</p>
-				<p id="splash_image_subtitle">Share your learning with the world</p>
-			</div>
-			<!--
-			<div id="splash_image_corner">
-				<p>Follow us</p>
-				<div id="social_media_twitter">
-					<img src="image/social_twitter.png" height="40px" width="40px"/>
-				</div>
-			</div>
-			-->
-		</div>
-		<div id="content">
-			<div class="article white">
-				<h1>Who are we?</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-			</div>
-			
-			<div class="article blue">
-				<div id="executive_slideshow">
-					<h1>Our Team</h1>
-					<ul>
-						<li>
-							<h2>President</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of HR</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of Marketing</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of Finance</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of Production</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of IT</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-						<li>
-							<h2>VP of CSR</h2>
-							<img src="image/wireframe_person.png" height="200px" width="200px">
-						</li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="article white">
-				<h1>What do we do?</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-			</div>
-		</div>
-		<footer include_html="includes/footer.html"></footer>
+	
+	<!-- Header -->
+	<div include_html="common/header.html" class=""></div>
+	<div id="splash" class="slide">
+		<div id = "splash_overlay" class="overlay"></div>
+		<div id="splash_header">Save the Bees</div>
+		<div id="splash_button">Learn More</div>
 	</div>
+	<div>
+	</div>
+	<div id="description" class="slide pink">
+		<h1 id="name">Abeeille</h1>
+		<h2 id="name_subtitle">Just Beelieve</h2>
+	</div>
+	<div class="slide white">
+		<h1>Why Bees are Important</h1>
+		<p></p>
+	</div>
+	
+	<div id="content">
+		<div id="main_frame">
+			<div class="article slide pink">
+				<h1>Bee Beanies Launch!</h1>
+				<p>Abeeille is excited to announce the launch of our flagship product, the Bee Beanie!</p>
+			</div>
+			
+			<div class="article slide">
+				<h1>Why Bees are Important</h1>
+				<p>Bees pollinate our fields and are responsible for much of the world's agricultural production.</p>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div include_html="common/footer.html"></div>
 </body>
 </html>
